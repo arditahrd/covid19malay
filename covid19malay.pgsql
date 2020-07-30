@@ -25,7 +25,7 @@ SET default_table_access_method = heap;
 --
 
 CREATE TABLE public.data_malay (
-    id integer NOT NULL,
+    id bigserial NOT NULL,
     negeri character varying NOT NULL,
     lat double precision NOT NULL,
     long double precision NOT NULL,
