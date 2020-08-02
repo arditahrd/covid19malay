@@ -1,1 +1,193 @@
-[{"formattedAddress":"60, Jalan Kunyit Emas P16/2, Presint 16, 62150 Putrajaya, Wilayah Persekutuan Putrajaya, Malaysia","latitude":2.9265655,"longitude":101.6982551,"extra":{"googlePlaceId":"ChIJ14X6dSW2zTERdQWB0hc0xpg","confidence":1,"premise":null,"subpremise":null,"neighborhood":"Presint 16","establishment":null},"administrativeLevels":{"level1long":"Wilayah Persekutuan Putrajaya","level1short":"Wilayah Persekutuan Putrajaya"},"streetNumber":"60","streetName":"Jalan Kunyit Emas P16/2","city":"Putrajaya","country":"Malaysia","countryCode":"MY","zipcode":"62150","provider":"google"},{"formattedAddress":"45, Jalan Kunyit Emas P16/2, Presint 16, 62150 Putrajaya, Wilayah Persekutuan Putrajaya, Malaysia","latitude":2.9265663,"longitude":101.6983165,"extra":{"googlePlaceId":"EmE0NSwgSmFsYW4gS3VueWl0IEVtYXMgUDE2LzIsIFByZXNpbnQgMTYsIDYyMTUwIFB1dHJhamF5YSwgV2lsYXlhaCBQZXJzZWt1dHVhbiBQdXRyYWpheWEsIE1hbGF5c2lhIhoSGAoUChIJhfitmiW2zTERIHQ3MBJ-5bwQLQ","confidence":0.9,"premise":null,"subpremise":null,"neighborhood":"Presint 16","establishment":null},"administrativeLevels":{"level1long":"Wilayah Persekutuan Putrajaya","level1short":"Wilayah Persekutuan Putrajaya"},"streetNumber":"45","streetName":"Jalan Kunyit Emas P16/2","city":"Putrajaya","country":"Malaysia","countryCode":"MY","zipcode":"62150","provider":"google"},{"formattedAddress":"Lebuh Bestari, Presint 2, 62100 Putrajaya, Wilayah Persekutuan Putrajaya, Malaysia","latitude":2.9246955,"longitude":101.696703,"extra":{"googlePlaceId":"ChIJD4CQ7C-2zTERfGUj9Yb2vEA","confidence":0.7,"premise":null,"subpremise":null,"neighborhood":"Presint 2","establishment":null},"administrativeLevels":{"level1long":"Wilayah Persekutuan Putrajaya","level1short":"Wilayah Persekutuan Putrajaya"},"streetName":"Lebuh Bestari","city":"Putrajaya","country":"Malaysia","countryCode":"MY","zipcode":"62100","provider":"google"},{"formattedAddress":"Presint 2, 62000 Putrajaya, Malaysia","latitude":2.928026,"longitude":101.6888077,"extra":{"googlePlaceId":"ChIJyze0djm2zTERj2qm7-oRpVo","confidence":0.5,"premise":null,"subpremise":null,"neighborhood":"Presint 2","establishment":null},"administrativeLevels":{"level1long":"Putrajaya","level1short":"Putrajaya"},"city":"Putrajaya","country":"Malaysia","countryCode":"MY","zipcode":"62000","provider":"google"},{"formattedAddress":"62100 Putrajaya, Malaysia","latitude":2.9165814,"longitude":101.6850556,"extra":{"googlePlaceId":"ChIJCyF3RjO2zTER95p-U16R9L0","confidence":0.5,"premise":null,"subpremise":null,"neighborhood":"Putrajaya","establishment":null},"administrativeLevels":{"level1long":"Putrajaya","level1short":"Putrajaya"},"zipcode":"62100","city":"Putrajaya","country":"Malaysia","countryCode":"MY","provider":"google"},{"formattedAddress":"Putrajaya, Malaysia","latitude":2.9353556,"longitude":101.6912831,"extra":{"googlePlaceId":"ChIJ94azHxu2zTERCFb0lYf5LM8","confidence":0.5,"premise":null,"subpremise":null,"neighborhood":"Putrajaya","establishment":null},"administrativeLevels":{"level1long":"Putrajaya","level1short":"Putrajaya"},"city":"Putrajaya","country":"Malaysia","countryCode":"MY","provider":"google"},{"formattedAddress":"Putrajaya, Malaysia","latitude":2.926361,"longitude":101.696445,"extra":{"googlePlaceId":"ChIJIwuORCW2zTERbK-BqY9eFoU","confidence":0.5,"premise":null,"subpremise":null,"neighborhood":"Putrajaya","establishment":null},"administrativeLevels":{"level1long":"Putrajaya","level1short":"Putrajaya"},"city":"Putrajaya","country":"Malaysia","countryCode":"MY","provider":"google"},{"formattedAddress":"Peninsular Malaysia, Malaysia","latitude":3.9743406,"longitude":102.4380581,"extra":{"googlePlaceId":"ChIJr-DPKLJOyTERxovWc-B_7Ts","confidence":0.5,"premise":null,"subpremise":null,"neighborhood":"Malaysia","establishment":"Peninsular Malaysia"},"administrativeLevels":{},"country":"Malaysia","countryCode":"MY","provider":"google"},{"formattedAddress":"Malaysia","latitude":4.210484,"longitude":101.975766,"extra":{"googlePlaceId":"ChIJrzBnX5fTNDAR2BwhKJOWRQc","confidence":0.5,"premise":null,"subpremise":null,"neighborhood":"Malaysia","establishment":null},"administrativeLevels":{},"country":"Malaysia","countryCode":"MY","provider":"google"}]
+[
+    {
+        "formattedAddress": "60, Jalan Kunyit Emas P16/2, Presint 16, 62150 Putrajaya, Wilayah Persekutuan Putrajaya, Malaysia",
+        "latitude": 2.9265655,
+        "longitude": 101.6982551,
+        "extra": {
+            "googlePlaceId": "ChIJ14X6dSW2zTERdQWB0hc0xpg",
+            "confidence": 1,
+            "premise": null,
+            "subpremise": null,
+            "neighborhood": "Presint 16",
+            "establishment": null
+        },
+        "administrativeLevels": {
+            "level1long": "Wilayah Persekutuan Putrajaya",
+            "level1short": "Wilayah Persekutuan Putrajaya"
+        },
+        "streetNumber": "60",
+        "streetName": "Jalan Kunyit Emas P16/2",
+        "city": "Putrajaya",
+        "country": "Malaysia",
+        "countryCode": "MY",
+        "zipcode": "62150",
+        "provider": "google"
+    },
+    {
+        "formattedAddress": "45, Jalan Kunyit Emas P16/2, Presint 16, 62150 Putrajaya, Wilayah Persekutuan Putrajaya, Malaysia",
+        "latitude": 2.9265663,
+        "longitude": 101.6983165,
+        "extra": {
+            "googlePlaceId": "EmE0NSwgSmFsYW4gS3VueWl0IEVtYXMgUDE2LzIsIFByZXNpbnQgMTYsIDYyMTUwIFB1dHJhamF5YSwgV2lsYXlhaCBQZXJzZWt1dHVhbiBQdXRyYWpheWEsIE1hbGF5c2lhIhoSGAoUChIJhfitmiW2zTERIHQ3MBJ-5bwQLQ",
+            "confidence": 0.9,
+            "premise": null,
+            "subpremise": null,
+            "neighborhood": "Presint 16",
+            "establishment": null
+        },
+        "administrativeLevels": {
+            "level1long": "Wilayah Persekutuan Putrajaya",
+            "level1short": "Wilayah Persekutuan Putrajaya"
+        },
+        "streetNumber": "45",
+        "streetName": "Jalan Kunyit Emas P16/2",
+        "city": "Putrajaya",
+        "country": "Malaysia",
+        "countryCode": "MY",
+        "zipcode": "62150",
+        "provider": "google"
+    },
+    {
+        "formattedAddress": "Lebuh Bestari, Presint 2, 62100 Putrajaya, Wilayah Persekutuan Putrajaya, Malaysia",
+        "latitude": 2.9246955,
+        "longitude": 101.696703,
+        "extra": {
+            "googlePlaceId": "ChIJD4CQ7C-2zTERfGUj9Yb2vEA",
+            "confidence": 0.7,
+            "premise": null,
+            "subpremise": null,
+            "neighborhood": "Presint 2",
+            "establishment": null
+        },
+        "administrativeLevels": {
+            "level1long": "Wilayah Persekutuan Putrajaya",
+            "level1short": "Wilayah Persekutuan Putrajaya"
+        },
+        "streetName": "Lebuh Bestari",
+        "city": "Putrajaya",
+        "country": "Malaysia",
+        "countryCode": "MY",
+        "zipcode": "62100",
+        "provider": "google"
+    },
+    {
+        "formattedAddress": "Presint 2, 62000 Putrajaya, Malaysia",
+        "latitude": 2.928026,
+        "longitude": 101.6888077,
+        "extra": {
+            "googlePlaceId": "ChIJyze0djm2zTERj2qm7-oRpVo",
+            "confidence": 0.5,
+            "premise": null,
+            "subpremise": null,
+            "neighborhood": "Presint 2",
+            "establishment": null
+        },
+        "administrativeLevels": {
+            "level1long": "Putrajaya",
+            "level1short": "Putrajaya"
+        },
+        "city": "Putrajaya",
+        "country": "Malaysia",
+        "countryCode": "MY",
+        "zipcode": "62000",
+        "provider": "google"
+    },
+    {
+        "formattedAddress": "62100 Putrajaya, Malaysia",
+        "latitude": 2.9165814,
+        "longitude": 101.6850556,
+        "extra": {
+            "googlePlaceId": "ChIJCyF3RjO2zTER95p-U16R9L0",
+            "confidence": 0.5,
+            "premise": null,
+            "subpremise": null,
+            "neighborhood": "Putrajaya",
+            "establishment": null
+        },
+        "administrativeLevels": {
+            "level1long": "Putrajaya",
+            "level1short": "Putrajaya"
+        },
+        "zipcode": "62100",
+        "city": "Putrajaya",
+        "country": "Malaysia",
+        "countryCode": "MY",
+        "provider": "google"
+    },
+    {
+        "formattedAddress": "Putrajaya, Malaysia",
+        "latitude": 2.9353556,
+        "longitude": 101.6912831,
+        "extra": {
+            "googlePlaceId": "ChIJ94azHxu2zTERCFb0lYf5LM8",
+            "confidence": 0.5,
+            "premise": null,
+            "subpremise": null,
+            "neighborhood": "Putrajaya",
+            "establishment": null
+        },
+        "administrativeLevels": {
+            "level1long": "Putrajaya",
+            "level1short": "Putrajaya"
+        },
+        "city": "Putrajaya",
+        "country": "Malaysia",
+        "countryCode": "MY",
+        "provider": "google"
+    },
+    {
+        "formattedAddress": "Putrajaya, Malaysia",
+        "latitude": 2.926361,
+        "longitude": 101.696445,
+        "extra": {
+            "googlePlaceId": "ChIJIwuORCW2zTERbK-BqY9eFoU",
+            "confidence": 0.5,
+            "premise": null,
+            "subpremise": null,
+            "neighborhood": "Putrajaya",
+            "establishment": null
+        },
+        "administrativeLevels": {
+            "level1long": "Putrajaya",
+            "level1short": "Putrajaya"
+        },
+        "city": "Putrajaya",
+        "country": "Malaysia",
+        "countryCode": "MY",
+        "provider": "google"
+    },
+    {
+        "formattedAddress": "Peninsular Malaysia, Malaysia",
+        "latitude": 3.9743406,
+        "longitude": 102.4380581,
+        "extra": {
+            "googlePlaceId": "ChIJr-DPKLJOyTERxovWc-B_7Ts",
+            "confidence": 0.5,
+            "premise": null,
+            "subpremise": null,
+            "neighborhood": "Malaysia",
+            "establishment": "Peninsular Malaysia"
+        },
+        "administrativeLevels": {},
+        "country": "Malaysia",
+        "countryCode": "MY",
+        "provider": "google"
+    },
+    {
+        "formattedAddress": "Malaysia",
+        "latitude": 4.210484,
+        "longitude": 101.975766,
+        "extra": {
+            "googlePlaceId": "ChIJrzBnX5fTNDAR2BwhKJOWRQc",
+            "confidence": 0.5,
+            "premise": null,
+            "subpremise": null,
+            "neighborhood": "Malaysia",
+            "establishment": null
+        },
+        "administrativeLevels": {},
+        "country": "Malaysia",
+        "countryCode": "MY",
+        "provider": "google"
+    }
+]
