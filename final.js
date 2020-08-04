@@ -93,7 +93,7 @@ function fetchData() {
                                 var zipcode = res[x].zipcode;
 
                                 console.log(kota + ' - ' + res[x].formattedAddress);
-                                await inputData(x, kota, lat, long, kasus, date, street, city, country, countryCode, zipcode);
+                                //await inputData(x, kota, lat, long, kasus, date, street, city, country, countryCode, zipcode);
                             }
 
                         });
