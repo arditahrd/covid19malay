@@ -14,14 +14,14 @@ const pool = new Pool({
     user: "postgres",
     host: "localhost",
     database: "covid19malay",
-    password: "123456",
+    password: "password",
     port: "5432"
 });
 
 
 function inputData(id, negeri, lat, long, cases, date, a, b, c, d, e) {
     pool.query(
-        "INSERT INTO cvd VALUES(null, '" + negeri + "', '" + lat + "', '" + long + "', '" + cases + "', '" + date + "','" + a + "','" + b + "','" + c + "','" + d + "','" + e + "')",
+        "INSERT INTO data_malay_ver3 VALUES('" + id + "','" + negeri + "', '" + lat + "', '" + long + "', '" + cases + "', '" + date + "','" + a + "','" + b + "','" + c + "','" + d + "','" + e + "')",
         (err, res) => {
             console.log(err, res);
             //console.log('data ' + id + ' berhasil disimpan');
@@ -68,7 +68,7 @@ function fetchData() {
                         var kasus = data.features[n].attributes.Cases;
 
                         jumlah_case += kasus;
-                        //console.log(id + ' ' + kota + ' '+kasus);
+                        console.log(id + ' ' + kota + ' '+kasus);
                         //get location
 
 
@@ -78,10 +78,10 @@ function fetchData() {
                             address = await geocoder.reverse({ lat: lat2, long: long });
                         }*/
 
-                        await geocoder.geocode(lat + ', ' + long, async function (err, res) {
-                            //console.log(res);
+                        await geocoder.geocode(lat + ', ' + long,async function (err, res) {
+                            //console.log(res);c
                             let data = JSON.stringify(res);
-                            await fs.writeFileSync('./json/' + kota + '.json', data);
+                            fs.writeFileSync('./json/' + kota + '.json', data);
 
                             var jml = res.length;
 
@@ -93,7 +93,7 @@ function fetchData() {
                                 var zipcode = res[x].zipcode;
 
                                 console.log(kota + ' - ' + res[x].formattedAddress);
-                                //await inputData(x, kota, lat, long, kasus, date, street, city, country, countryCode, zipcode);
+                                await inputData(id, kota, lat, long, kasus, date, street, city, country, countryCode, zipcode);
                             }
 
                         });
