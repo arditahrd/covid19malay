@@ -15,28 +15,28 @@ const pool = new Pool({
     user: "postgres",
     host: "localhost",
     database: "covid19malay",
-    password: "123456",
+    password: "password",
     port: "5432"
 });
 
 
 //function to insert data to PostgreSQL
-function inputData(id, negeri, lat, long, cases, date, a, b, c, d, e) {
+function inputData(id, province, lat, long, cases, date, a, b, c, d, e) {
     pool.query(
-        "INSERT INTO data_malay_ver3 VALUES('" + id + "','" + negeri + "', '" + lat + "', '" + long + "', '" + cases +
-        "', '" + date + "','" + a + "','" + b + "','" + c + "','" + d + "','" + e + "')",
+        "INSERT INTO data_malay_ver3 VALUES(" + province + "', '" + lat + "', '" + long + "', '" + cases +
+        "', '" + date + "','" + a + "','" + b + "','" + c + "','" + d + "','" + e + ",'')",
         (err, res) => {
-            //console.log(err, res);
-            console.log('data ' + id + ' berhasil disimpan');
+            console.log(err, res);
+            //console.log('data ' + id + ' berhasil disimpan');
         }
     );
 }
 
 
 //function to update data
-function updateData(id, negeri, lat, long, cases, date, streetname, city, country, countrycode, zipcode) {
+function updateData(id, province, lat, long, cases, date, streetname, city, country, countrycode, zipcode) {
     pool.query(
-        "UPDATE data_malay_ver3 SET negeri='" + negeri + "',lat= '" + lat + "',long = '" + long + "',cases = '" + cases +
+        "UPDATE data_malay_ver3 SET province='" + province + "',lat= '" + lat + "',long = '" + long + "',cases = '" + cases +
         "',date= '" + date + "',streetname='" + streetname + "',city='" + city + "',country='" + country +
         "',countryCode='" + countrycode + "',zipcode='" + zipcode + "'  where id = '" + id + "'",
 
