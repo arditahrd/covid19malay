@@ -23,11 +23,11 @@ const pool = new Pool({
 //function to insert data to PostgreSQL
 function inputData(id, province, lat, long, cases, date, a, b, c, d, e) {
     pool.query(
-        "INSERT INTO data_malay_ver3 VALUES(" + province + "', '" + lat + "', '" + long + "', '" + cases +
-        "', '" + date + "','" + a + "','" + b + "','" + c + "','" + d + "','" + e + ",'')",
+        "INSERT INTO data_malay_ver3  VALUES('" + id + "','" + province + "', '" + lat + "', '" + long + "', '" + cases +
+        "', '" + date + "','" + a + "','" + b + "','" + c + "','" + d + "','" + e + "')",
         (err, res) => {
-            console.log(err, res);
-            //console.log('data ' + id + ' berhasil disimpan');
+            //console.log(err, res);
+            console.log('data ' + id + ' berhasil disimpan');
         }
     );
 }
