@@ -93,11 +93,11 @@ function fetchData() {
                         //extract geocoder data from specific Latitude and Longitude
                         await geocoder.geocode(lat + ', ' + long, async function (err, res) {
 
-                            // Un-comment this code to save data to JSON file
+                            //Un-comment this code to save data to JSON file
                             /*let data = JSON.stringify(res);
                             fs.writeFileSync('./json/' + kota + '.json', data); */
 
-                            // count data from geocode
+                            //count data from geocode
                             var jml = res.length;
 
                             //looping
